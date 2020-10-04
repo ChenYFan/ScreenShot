@@ -11,7 +11,8 @@ jobs:
     steps:
     - name: Download
       run: |
-        curl https://image.thum.io/get/width/1024/crop/768/https://{blog\.cyfan\.top,cyfan\.top}/ -o #1.jpg   
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.cyfan.top/ -o blog.cyfan.top.jpg   
+        curl https://image.thum.io/get/width/1024/crop/768/https://cyfan.top/ -o cyfan.top.jpg 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
