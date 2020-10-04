@@ -32,6 +32,7 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://dusays.com/ -o dusays.com.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://kurumit3.top/ -o kurumit3.top.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://logi.im/ -o logi.im.jpg 
+        curl https://purge.jsdelivr.net/gh/ChenYFan/ScreeShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
