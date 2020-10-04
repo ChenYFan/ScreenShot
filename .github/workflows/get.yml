@@ -1,0 +1,28 @@
+name: get
+on: 
+  push:
+    branches: 
+      - master # build master branch only
+
+jobs:
+  download:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        ref: master
+
+    - name: Download
+      run: |
+        mkdir download
+        cd download
+        curl -LJO 'https://image.thum.io/get/width/1024/crop/768/https://blog.cyfan.top/'
+
+        
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.TOKEN }}
+        publish_dir: ./download
