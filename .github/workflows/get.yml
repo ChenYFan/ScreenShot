@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Download
       run: |
-        wget -i site.txt        
+        wget -i ./site.txt        
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
