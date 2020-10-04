@@ -11,11 +11,9 @@ jobs:
     steps:
     - name: Download
       run: |
-        mkdir download
-        cd download
         wget -i site.txt        
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.TOKEN }}
-        publish_dir: ./download
+        publish_dir: ./
