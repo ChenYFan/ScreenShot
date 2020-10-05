@@ -7,3 +7,7 @@
 curl https://image.thum.io/get/width/1024/crop/768/https://<YourDomain>/ -o <YourDoamin>.jpg
 ```
 允许非友链添加截图请求
+
+默认大小1024\*655
+可在<https://cdn.jsdelivr.net/gh/ChenYFan/ScreenShot@gh-pages/>看到
+**可能不适配**pjax
