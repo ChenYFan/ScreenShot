@@ -37,6 +37,7 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://logi.im/ -o logi.im.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://cndrew.cn/ -o cndrew.cn.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.jalenchuh.cn/ -o blog.jalenchuh.cn.jpg 
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.watertomato.com/ -o www.watertomato.com.jpg
         curl https://purge.jsdelivr.net/gh/ChenYFan/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
