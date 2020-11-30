@@ -1,6 +1,6 @@
 # 友链全自动截图
-
-向<https://github.com/ChenYFan/ScreenShot/blob/main/.github/workflows/get.yml>按照格式提交PR【禁止更改大小参数】
+原项目为https://github.com/ChenYFan/ScreenShot
+向<https://github.com/Akilarlxh/ScreenShot/blob/main/.github/workflows/get.yml>按照格式提交PR【禁止更改大小参数】
 
 添加一行
 ```

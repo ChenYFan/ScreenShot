@@ -1,9 +1,9 @@
 name: get
-on: 
+on:
   schedule:
     - cron: '0 0 * * 0'
   push:
-    branches: 
+    branches:
       - main
 
 jobs:
@@ -13,32 +13,35 @@ jobs:
     steps:
     - name: Download
       run: |
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.cyfan.top/ -o blog.cyfan.top.jpg   
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.pangao.vip/ -o blog.pangao.vip.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.kindyear.cn/ -o www.kindyear.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.xding.top/ -o www.xding.top.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.say521.cn/ -o blog.say521.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.yizuodi.cn/ -o www.yizuodi.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.qwqdanchun.cn/ -o blog.qwqdanchun.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.jimmyho.net/ -o blog.jimmyho.net.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://muyiio.com/ -o muyiio.com.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.winkiller.cf/ -o www.winkiller.cf.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.tigerroot.cn/ -o blog.tigerroot.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://eesdh.com/ -o eesdh.com.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.skk.moe/ -o blog.skk.moe.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://colsrch.cn/ -o colsrch.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.islery.com/ -o www.islery.com.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://flesx.cn/ -o flesx.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://tajoy.net/ -o tajoy.net.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://longyuan.store/ -o longyuan.store.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://qwqaq.com/ -o qwqaq.com.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://dusays.com/ -o dusays.com.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://kurumit3.top/ -o kurumit3.top.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://logi.im/ -o logi.im.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://cndrew.cn/ -o cndrew.cn.jpg
-        curl https://image.thum.io/get/width/1024/crop/768/https://blog.jalenchuh.cn/ -o blog.jalenchuh.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://www.watertomato.com/ -o www.watertomato.com.jpg
-        curl https://purge.jsdelivr.net/gh/ChenYFan/ScreenShot@gh-pages/*.*
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.vanxnf.top/ -o blog.vanxnf.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://zfe.one/ -o zfe.one.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.zhheo.com/ -o blog.zhheo.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://spoience.com/ -o spoience.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://jerryc.me/ -o jerryc.me.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://hexo.io/ -o hexo.io.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://zhangshuqiao.org/ -o zhangshuqiao.org.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.paddylin.top/ -o www.paddylin.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.antmoe.com/ -o www.antmoe.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.hclonely.com/ -o blog.hclonely.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.lete114.top/ -o www.lete114.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.zykjofficial.top/ -o blog.zykjofficial.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.juanertu.com/ -o blog.juanertu.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://kevin409.top/ -o kevin409.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://guihai-ocean.com/ -o guihai-ocean.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://flesx.cn/ -o flesx.cn.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://wr0926.ml/ -o wr0926.ml.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://ryoncat.xyz/ -o ryoncat.xyz.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://linxifgit.gitee.io/ -o linxifgit.gitee.io.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://wtnl.xyz/ -o wtnl.xyz.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.molipre.com/ -o blog.molipre.com.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://www.hack-gov.com.cn/ -o www.hack-gov.com.cn.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://evrstr.cc/ -o evrstr.cc.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://forever97.top/ -o forever97.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://android99.me/ -o android99.me.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.ccknbc.cc/ -o blog.ccknbc.cc.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://menglei.xyz/ -o menglei.xyz.jpg
+
+        curl https://purge.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
