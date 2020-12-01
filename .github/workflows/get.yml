@@ -41,7 +41,6 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://android99.me/ -o android99.me.png
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.ccknbc.cc/ -o blog.ccknbc.cc.png
         curl https://image.thum.io/get/width/1024/crop/768/https://jilins.top/ -o jilins.top.png
-        jilins.top
         curl https://image.thum.io/get/width/1024/crop/768/https://menglei.xyz/ -o menglei.xyz.png
 
         curl https://purge.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/*.*
