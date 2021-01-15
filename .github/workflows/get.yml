@@ -61,6 +61,7 @@ jobs:
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://u.mr90.top/ -o u.mr90.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://ethant.top/ -o ethant.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.qingfenginn.top/ -o www.qingfenginn.top.jpg
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://suqi.me/ -o suqi.me.jpg
         curl https://purge.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
