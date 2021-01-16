@@ -57,7 +57,8 @@ jobs:
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://yuanyuanzi.top/ -o yuanyuanzi.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://hesifan.top/ -o hesifan.top.jpg
         curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://nekodeng.gitee.io/ -o nekodeng.gitee.io.jpg
-
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://www.nesxc.com/ -o www.nesxc.com.jpg
+        curl https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/https://vino.run/ -o vino.run.jpg
         curl https://purge.jsdelivr.net/gh/Akilarlxh/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
