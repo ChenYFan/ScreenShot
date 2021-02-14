@@ -21,7 +21,6 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://www.yizuodi.cn/ -o www.yizuodi.cn.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.qwqdanchun.cn/ -o blog.qwqdanchun.cn.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.jimmyho.net/ -o blog.jimmyho.net.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://muyiio.com/ -o muyiio.com.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://www.winkiller.cf/ -o www.winkiller.cf.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.tigerroot.cn/ -o blog.tigerroot.cn.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://eesdh.com/ -o eesdh.com.jpg 
@@ -29,8 +28,6 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://colsrch.cn/ -o colsrch.cn.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://www.islery.com/ -o www.islery.com.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://flesx.cn/ -o flesx.cn.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://tajoy.net/ -o tajoy.net.jpg 
-        curl https://image.thum.io/get/width/1024/crop/768/https://longyuan.store/ -o longyuan.store.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://qwqaq.com/ -o qwqaq.com.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://dusays.com/ -o dusays.com.jpg 
         curl https://image.thum.io/get/width/1024/crop/768/https://kurumit3.top/ -o kurumit3.top.jpg 
