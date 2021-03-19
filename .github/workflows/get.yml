@@ -40,6 +40,7 @@ jobs:
         curl https://image.thum.io/get/width/1024/crop/768/https://blog.imzjw.cn/ -o blog.imzjw.cn.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://zfe.one/ -o zfe.one.jpg
         curl https://image.thum.io/get/width/1024/crop/768/https://akilar.top/ -o akilar.top.jpg
+        curl https://image.thum.io/get/width/1024/crop/768/https://blog.stevelbr.top/ -o blog.stevelbr.top.jpg
         curl https://purge.jsdelivr.net/gh/ChenYFan/ScreenShot@gh-pages/*.*
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
